@@ -10,7 +10,7 @@
   margin: auto;
   display: block;
   padding: 0px;
-  width: 50%S;
+  width: 50%;
  height: auto;
 }
 
@@ -80,14 +80,19 @@ h1 {
     margin-inline-end: 0px;
     font-weight: bold;
     text-align: center;
-    color: black;
-    font-family: 'Epilogue', sans-serif;
+    color: white;
+
 
   }
 
 body {
   background-color: #c3ddbc;
-  font-family: 'Epilogue', sans-serif;
+  font-family: 'Alata', sans-serif;
+}
+
+#wrapper {
+  background-color: #6C9662;
+  max-width: 100%;
 }
 
 
@@ -103,28 +108,109 @@ header {
 
 }
 
+#hive {
+  width: 50%;
+  float: left;
+}
+
+table {
+  border-collapse: collapse;
+  text-align: center;
+  color: white;
+  margin-right: auto;
+  margin-left: auto;
+  clear: left;
+
+
+
+
+}
+
+td {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+th {
+  border: 1px solid #dddddd;
+  text-align: center
+  color: white;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px black;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 8px;
+}
+
+
+}
+
+tr:nth-child(even) {
+  background-color: #fffff;
+}
+
 ol {
   font-size: 1em;
   text-align: center;
-  color: black;
+  color: white;
   padding: 15px;
   font-weight: bold;
   margin: auto;
 
+}
+
+li {
+  font-size: 1em;
+  text-align: center;
+  color: white;
+  padding: 15px;
+  font-weight: bold;
+  margin: auto;
+
+}
+
+.logo {
+  max-width: 250px;
+  margin: auto;
+  display: block;
+  padding: 15px;
+}
 }
 
 p {
   font-size: 15px;
   font-weight: bold;
   line-height: 15px;
+  text-align: center;
+
 }
 
 #aboutbee {
-  width: 50%;
-  height: 50%;
-  float: left;
-  margin: auto;
-  padding: 15px;
-  float: left;
 
+  padding: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 29%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
