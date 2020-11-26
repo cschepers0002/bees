@@ -5,6 +5,8 @@
   padding: 15px;
 }
 
+
+
 #logotext {
   max-width: 100%;
   margin: auto;
@@ -180,6 +182,21 @@ li {
   display: block;
   padding: 15px;
 }
+
+.logo1 {
+  max-width: 400px;
+  margin: auto;
+  display: block;
+  padding: 15px;
+}
+
+ #example1 {
+   background-image: url(hivebkgd-01.png), url(hivebkgd-02.png); 
+  background-position: left, right;
+  background-repeat: no-repeat, no-repeat;
+}
+table{
+  margin:auto;
 }
 
 p {
@@ -201,11 +218,27 @@ p {
 
 }
 
+.abouttext {
+  font-size: 1em;
+  line-height: 25px;
+  color: white;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+}
+
+#sidehive {
+  width: 100%;
+}
+
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
   float: left;
   width: 29%;
-  padding: 5px;
+  padding: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Clear floats after image containers */
@@ -213,4 +246,6 @@ p {
   content: "";
   clear: both;
   display: table;
+
+
 }
